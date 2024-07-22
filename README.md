@@ -1,8 +1,3 @@
----
-title: README
-
----
-
 # To-Do List
 
 A to-do list app that can sorted the tasks by importance.
