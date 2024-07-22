@@ -33,7 +33,7 @@ Settings and preferences.
 ## Installing
 
 currently only provide apk to install.
-go to download folder and download "To Do List.apk". 
+go to download folder or Releases to download "To Do List.apk". 
 transfer the apk file to smartphone then click the apk to install.
 
 
