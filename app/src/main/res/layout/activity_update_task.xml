@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateTaskActivity">
+
+    <TextView
+        android:id="@+id/editTaskHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+
+        android:text="Edit Task"
+        android:textSize="24sp"
+        android:textColor="@color/green"/>
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/done"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/editTaskHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter The Title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/editTaskHeading"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/ImportanceText"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/updateTitleEditText"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Importance :" />
+
+    <Spinner
+        android:id="@+id/updateWeight"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/updateTitleEditText"
+        android:layout_toRightOf="@id/ImportanceText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/green_border"
+        android:tooltipText="high" />
+
+    <TextView
+        android:id="@+id/updateDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="choose date"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_below="@id/updateWeight"
+        android:background="@drawable/green_border"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/updateContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter the content"
+        android:gravity="start|top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@drawable/green_border"
+        android:layout_below="@id/updateDate"
+        android:layout_marginTop="12dp"
+        />
+
+</RelativeLayout>
