@@ -71,3 +71,6 @@ After editing, click the check mark on the top right to finish editing task page
 
 click the trash can button on the task to delete the task. 
 
+## Credit
+
+It is my first attempt to write an APP. So most of the part was referred to the Notes App toturial from Android Knowledge.
