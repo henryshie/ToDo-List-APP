@@ -1,8 +1,3 @@
----
-title: Architecture Document
-
----
-
 ## Architecture
 
 To Do list app are divide into UI Layer and Data Layer.
